@@ -6,6 +6,7 @@
     >
       <span class="d-flex"
         >{{ name }}
+        &nbsp;
         <span
           >{{ value }}<bdi>{{ unit }}</bdi></span
         ></span
@@ -16,6 +17,7 @@
     <p v-else class="text-capitalize d-flex justify-content-between">
       <span class="fw-bold d-flex"
         >{{ name }}
+        &nbsp;
         <span class="fw-normal"
           >{{ value }}<bdi>{{ unit }}</bdi></span
         ></span

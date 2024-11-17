@@ -4,15 +4,18 @@
       v-if="indentation"
       class="text-capitalize d-flex justify-content-between ms-3"
     >
-      <span
+      <span class="d-flex"
         >{{ name }} <span>{{ value }}{{ unit }}</span></span
       >
       <span v-if="daily_value">{{ daily_value }}%</span>
     </p>
 
     <p v-else class="text-capitalize d-flex justify-content-between">
-      <span class="fw-bold"
-        >{{ name }} <span class="fw-normal">{{ value }}{{ unit }}</span></span
+      <span class="fw-bold d-flex"
+        >{{ name }}
+        <span class="fw-normal"
+          >{{ value }} <bdi>{{ unit }}</bdi></span
+        ></span
       >
       <span v-if="daily_value">{{ daily_value }}%</span>
     </p>

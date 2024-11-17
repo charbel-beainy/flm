@@ -8,8 +8,21 @@ body * {
   font-family: var(--en-font) !important;
 }
 
+[dir="rtl"] body * {
+  font-family: var(--ar-font) !important;
+  direction: rtl;
+}
+[dir="rtl"] .text-start {
+  text-align: right !important;
+}
+
+[dir="rtl"] .ms-3 {
+  margin-left: 0rem !important;
+  margin-right: 1rem !important;
+}
+
 #app {
-  margin: 60px 0;
+  margin: 0 0 60px 0;
 }
 
 #label {
@@ -49,4 +62,10 @@ hr {
 
 .border-separator-smaller {
   border-top: 10px var(--primary-black) solid !important;
+}
+
+@media (max-width: 454px) {
+  .dropdown {
+    margin-top: 1rem;
+  }
 }

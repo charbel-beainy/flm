@@ -5,7 +5,10 @@
       class="text-capitalize d-flex justify-content-between ms-3"
     >
       <span class="d-flex"
-        >{{ name }} <span>{{ value }}{{ unit }}</span></span
+        >{{ name }}
+        <span
+          >{{ value }}<bdi>{{ unit }}</bdi></span
+        ></span
       >
       <span v-if="daily_value">{{ daily_value }}%</span>
     </p>
@@ -14,7 +17,7 @@
       <span class="fw-bold d-flex"
         >{{ name }}
         <span class="fw-normal"
-          >{{ value }} <bdi>{{ unit }}</bdi></span
+          >{{ value }}<bdi>{{ unit }}</bdi></span
         ></span
       >
       <span v-if="daily_value">{{ daily_value }}%</span>

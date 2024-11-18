@@ -24,7 +24,7 @@
       <div class="border-separator-smaller my-2"></div>
       <div class="label-body">
         <p class="text-capitalize text-end fw-bold">
-          {{ $t("dailyvalue") }} <sup>*</sup>
+          {{ $t("dailyValue") }} <sup>*</sup>
         </p>
         <hr class="my-1" />
 

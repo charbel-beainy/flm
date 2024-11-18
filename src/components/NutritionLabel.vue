@@ -1,7 +1,7 @@
 <template>
   <div class="row d-flex justify-content-center">
     <div id="label" class="col-lg-4 col-md-6 col-10 mx-auto border py-2">
-      <h2 class="text-capitalize text-cneter mb-0">
+      <h2 class="text-capitalize text-center mb-0">
         {{ $t("nutritionFacts") }}
       </h2>
       <hr class="my-1" />
